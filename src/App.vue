@@ -15,3 +15,7 @@ export default {
   <RouterView />
   <AppFooter />
 </template>
+
+<style lang="scss">
+@forward "@/styles/_style.scss";
+</style>
