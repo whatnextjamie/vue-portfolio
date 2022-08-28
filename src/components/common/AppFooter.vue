@@ -1,0 +1,5 @@
+<template>
+  <footer>
+    <h1>This is the footer component</h1>
+  </footer>
+</template>
