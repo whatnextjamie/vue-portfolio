@@ -1,2 +1,9 @@
 $primary-color: #333;
 $text-color: #fff;
+
+//Breakpoints
+$screen-s: 36em !default; //576px at 16px base font
+$screen-m: 48em !default; //768px at 16px base font
+$screen-l: 62em !default; //992px at 16px base font
+$screen-xl: 75em !default; //1200px at 16px base font
+$screen-xxl: 87.5em !default; //1400px at 16px base font

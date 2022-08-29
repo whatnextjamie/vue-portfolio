@@ -4,11 +4,13 @@
   </footer>
 </template>
 
-<style lang="scss" scoped>
-@use "@/styles/variables";
+<style lang="scss">
+@use "@/styles/base" as *;
 
 footer {
-  background-color: variables.$primary-color;
-  color: variables.$text-color;
+  @include breakpoint(XL) {
+    background-color: $primary-color;
+    color: $text-color;
+  }
 }
 </style>

@@ -11,3 +11,5 @@ import { RouterLink } from "vue-router";
     </nav>
   </main>
 </template>
+
+<style lang="scss"></style>
