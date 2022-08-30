@@ -1,0 +1,27 @@
+@use "@/styles/variables" as *;
+
+.color {
+  &-white {
+    color: $color-white;
+  }
+
+  &-black {
+    color: $color-black;
+  }
+
+  &-primary {
+    color: $color-primary;
+  }
+
+  &-secondary {
+    color: $color-secondary;
+  }
+
+  &-tertiary {
+    color: $color-tertiary;
+  }
+
+  &-border {
+    color: $color-border;
+  }
+}
