@@ -1,0 +1,1281 @@
+@use "@/styles/variables" as *;
+@use "@/styles/mixins/breakpoint.scss" as *;
+
+.p {
+  &-0 {
+    padding: $spacer-0;
+  }
+
+  &-1 {
+    padding: $spacer-1;
+  }
+
+  &-2 {
+    padding: $spacer-2;
+  }
+
+  &-3 {
+    padding: $spacer-3;
+  }
+
+  &-4 {
+    padding: $spacer-4;
+  }
+
+  &-5 {
+    padding: $spacer-5;
+  }
+
+  &-6 {
+    padding: $spacer-6;
+  }
+
+  &-7 {
+    padding: $spacer-7;
+  }
+
+  @include breakpoint(sm) {
+    &-0-sm {
+      padding: $spacer-0;
+    }
+    &-1-sm {
+      padding: $spacer-1;
+    }
+    &-2-sm {
+      padding: $spacer-2;
+    }
+    &-3-sm {
+      padding: $spacer-3;
+    }
+    &-4-sm {
+      padding: $spacer-4;
+    }
+    &-5-sm {
+      padding: $spacer-5;
+    }
+    &-6-sm {
+      padding: $spacer-6;
+    }
+    &-7-sm {
+      padding: $spacer-7;
+    }
+  }
+
+  @include breakpoint(md) {
+    &-0-md {
+      padding: $spacer-0;
+    }
+    &-1-md {
+      padding: $spacer-1;
+    }
+    &-2-md {
+      padding: $spacer-2;
+    }
+    &-3-md {
+      padding: $spacer-3;
+    }
+    &-4-md {
+      padding: $spacer-4;
+    }
+    &-5-md {
+      padding: $spacer-5;
+    }
+    &-6-md {
+      padding: $spacer-6;
+    }
+    &-7-md {
+      padding: $spacer-7;
+    }
+  }
+
+  @include breakpoint(lg) {
+    &-0-lg {
+      padding: $spacer-0;
+    }
+    &-1-lg {
+      padding: $spacer-1;
+    }
+    &-2-lg {
+      padding: $spacer-2;
+    }
+    &-3-lg {
+      padding: $spacer-3;
+    }
+    &-4-lg {
+      padding: $spacer-4;
+    }
+    &-5-lg {
+      padding: $spacer-5;
+    }
+    &-6-lg {
+      padding: $spacer-6;
+    }
+    &-7-lg {
+      padding: $spacer-7;
+    }
+  }
+
+  @include breakpoint(xl) {
+    &-0-xl {
+      padding: $spacer-0;
+    }
+    &-1-xl {
+      padding: $spacer-1;
+    }
+    &-2-xl {
+      padding: $spacer-2;
+    }
+    &-3-xl {
+      padding: $spacer-3;
+    }
+    &-4-xl {
+      padding: $spacer-4;
+    }
+    &-5-xl {
+      padding: $spacer-5;
+    }
+    &-6-xl {
+      padding: $spacer-6;
+    }
+    &-7-xl {
+      padding: $spacer-7;
+    }
+  }
+
+  @include breakpoint(xxl) {
+    &-0-xxl {
+      padding: $spacer-0;
+    }
+    &-1-xxl {
+      padding: $spacer-1;
+    }
+    &-2-xxl {
+      padding: $spacer-2;
+    }
+    &-3-xxl {
+      padding: $spacer-3;
+    }
+    &-4-xxl {
+      padding: $spacer-4;
+    }
+    &-5-xxl {
+      padding: $spacer-5;
+    }
+    &-6-xxl {
+      padding: $spacer-6;
+    }
+    &-7-xxl {
+      padding: $spacer-7;
+    }
+  }
+}
+
+.py {
+  &-0 {
+    padding-top: $spacer-0;
+    padding-bottom: $spacer-0;
+  }
+
+  &-1 {
+    padding-top: $spacer-1;
+    padding-bottom: $spacer-1;
+  }
+
+  &-2 {
+    padding-top: $spacer-2;
+    padding-bottom: $spacer-2;
+  }
+
+  &-3 {
+    padding-top: $spacer-3;
+    padding-bottom: $spacer-3;
+  }
+
+  &-4 {
+    padding-top: $spacer-4;
+    padding-bottom: $spacer-4;
+  }
+
+  &-5 {
+    padding-top: $spacer-5;
+    padding-bottom: $spacer-5;
+  }
+
+  &-6 {
+    padding-top: $spacer-6;
+    padding-bottom: $spacer-6;
+  }
+
+  &-7 {
+    padding-top: $spacer-7;
+    padding-bottom: $spacer-7;
+  }
+
+  @include breakpoint(sm) {
+    &-0-sm {
+      padding-top: $spacer-0;
+      padding-bottom: $spacer-0;
+    }
+    &-1-sm {
+      padding-top: $spacer-1;
+      padding-bottom: $spacer-1;
+    }
+    &-2-sm {
+      padding-top: $spacer-2;
+      padding-bottom: $spacer-2;
+    }
+    &-3-sm {
+      padding-top: $spacer-3;
+      padding-bottom: $spacer-3;
+    }
+    &-4-sm {
+      padding-top: $spacer-4;
+      padding-bottom: $spacer-4;
+    }
+    &-5-sm {
+      padding-top: $spacer-5;
+      padding-bottom: $spacer-5;
+    }
+    &-6-sm {
+      padding-top: $spacer-6;
+      padding-bottom: $spacer-6;
+    }
+    &-7-sm {
+      padding-top: $spacer-7;
+      padding-bottom: $spacer-7;
+    }
+  }
+
+  @include breakpoint(md) {
+    &-0-md {
+      padding-top: $spacer-0;
+      padding-bottom: $spacer-0;
+    }
+    &-1-md {
+      padding-top: $spacer-1;
+      padding-bottom: $spacer-1;
+    }
+    &-2-md {
+      padding-top: $spacer-2;
+      padding-bottom: $spacer-2;
+    }
+    &-3-md {
+      padding-top: $spacer-3;
+      padding-bottom: $spacer-3;
+    }
+    &-4-md {
+      padding-top: $spacer-4;
+      padding-bottom: $spacer-4;
+    }
+    &-5-md {
+      padding-top: $spacer-5;
+      padding-bottom: $spacer-5;
+    }
+    &-6-md {
+      padding-top: $spacer-6;
+      padding-bottom: $spacer-6;
+    }
+    &-7-md {
+      padding-top: $spacer-7;
+      padding-bottom: $spacer-7;
+    }
+  }
+
+  @include breakpoint(lg) {
+    &-0-lg {
+      padding-top: $spacer-0;
+      padding-bottom: $spacer-0;
+    }
+    &-1-lg {
+      padding-top: $spacer-1;
+      padding-bottom: $spacer-1;
+    }
+    &-2-lg {
+      padding-top: $spacer-2;
+      padding-bottom: $spacer-2;
+    }
+    &-3-lg {
+      padding-top: $spacer-3;
+      padding-bottom: $spacer-3;
+    }
+    &-4-lg {
+      padding-top: $spacer-4;
+      padding-bottom: $spacer-4;
+    }
+    &-5-lg {
+      padding-top: $spacer-5;
+      padding-bottom: $spacer-5;
+    }
+    &-6-lg {
+      padding-top: $spacer-6;
+      padding-bottom: $spacer-6;
+    }
+    &-7-lg {
+      padding-top: $spacer-7;
+      padding-bottom: $spacer-7;
+    }
+  }
+
+  @include breakpoint(xl) {
+    &-0-xl {
+      padding-top: $spacer-0;
+      padding-bottom: $spacer-0;
+    }
+    &-1-xl {
+      padding-top: $spacer-1;
+      padding-bottom: $spacer-1;
+    }
+    &-2-xl {
+      padding-top: $spacer-2;
+      padding-bottom: $spacer-2;
+    }
+    &-3-xl {
+      padding-top: $spacer-3;
+      padding-bottom: $spacer-3;
+    }
+    &-4-xl {
+      padding-top: $spacer-4;
+      padding-bottom: $spacer-4;
+    }
+    &-5-xl {
+      padding-top: $spacer-5;
+      padding-bottom: $spacer-5;
+    }
+    &-6-xl {
+      padding-top: $spacer-6;
+      padding-bottom: $spacer-6;
+    }
+    &-7-xl {
+      padding-top: $spacer-7;
+      padding-bottom: $spacer-7;
+    }
+  }
+
+  @include breakpoint(xxl) {
+    &-0-xxl {
+      padding-top: $spacer-0;
+      padding-bottom: $spacer-0;
+    }
+    &-1-xxl {
+      padding-top: $spacer-1;
+      padding-bottom: $spacer-1;
+    }
+    &-2-xxl {
+      padding-top: $spacer-2;
+      padding-bottom: $spacer-2;
+    }
+    &-3-xxl {
+      padding-top: $spacer-3;
+      padding-bottom: $spacer-3;
+    }
+    &-4-xxl {
+      padding-top: $spacer-4;
+      padding-bottom: $spacer-4;
+    }
+    &-5-xxl {
+      padding-top: $spacer-5;
+      padding-bottom: $spacer-5;
+    }
+    &-6-xxl {
+      padding-top: $spacer-6;
+      padding-bottom: $spacer-6;
+    }
+    &-7-xxl {
+      padding-top: $spacer-7;
+      padding-bottom: $spacer-7;
+    }
+  }
+}
+
+.px {
+  &-0 {
+    padding-left: $spacer-0;
+    padding-right: $spacer-0;
+  }
+
+  &-1 {
+    padding-left: $spacer-1;
+    padding-right: $spacer-1;
+  }
+
+  &-2 {
+    padding-left: $spacer-2;
+    padding-right: $spacer-2;
+  }
+
+  &-3 {
+    padding-left: $spacer-3;
+    padding-right: $spacer-3;
+  }
+
+  &-4 {
+    padding-left: $spacer-4;
+    padding-right: $spacer-4;
+  }
+
+  &-5 {
+    padding-left: $spacer-5;
+    padding-right: $spacer-5;
+  }
+
+  &-6 {
+    padding-left: $spacer-6;
+    padding-right: $spacer-6;
+  }
+
+  &-7 {
+    padding-left: $spacer-7;
+    padding-right: $spacer-7;
+  }
+
+  @include breakpoint(sm) {
+    &-0-sm {
+      padding-left: $spacer-0;
+      padding-right: $spacer-0;
+    }
+    &-1-sm {
+      padding-left: $spacer-1;
+      padding-right: $spacer-1;
+    }
+    &-2-sm {
+      padding-left: $spacer-2;
+      padding-right: $spacer-2;
+    }
+    &-3-sm {
+      padding-left: $spacer-3;
+      padding-right: $spacer-3;
+    }
+    &-4-sm {
+      padding-left: $spacer-4;
+      padding-right: $spacer-4;
+    }
+    &-5-sm {
+      padding-left: $spacer-5;
+      padding-right: $spacer-5;
+    }
+    &-6-sm {
+      padding-left: $spacer-6;
+      padding-right: $spacer-6;
+    }
+    &-7-sm {
+      padding-left: $spacer-7;
+      padding-right: $spacer-7;
+    }
+  }
+
+  @include breakpoint(md) {
+    &-0-md {
+      padding-left: $spacer-0;
+      padding-right: $spacer-0;
+    }
+    &-1-md {
+      padding-left: $spacer-1;
+      padding-right: $spacer-1;
+    }
+    &-2-md {
+      padding-left: $spacer-2;
+      padding-right: $spacer-2;
+    }
+    &-3-md {
+      padding-left: $spacer-3;
+      padding-right: $spacer-3;
+    }
+    &-4-md {
+      padding-left: $spacer-4;
+      padding-right: $spacer-4;
+    }
+    &-5-md {
+      padding-left: $spacer-5;
+      padding-right: $spacer-5;
+    }
+    &-6-md {
+      padding-left: $spacer-6;
+      padding-right: $spacer-6;
+    }
+    &-7-md {
+      padding-left: $spacer-7;
+      padding-right: $spacer-7;
+    }
+  }
+
+  @include breakpoint(lg) {
+    &-0-lg {
+      padding-left: $spacer-0;
+      padding-right: $spacer-0;
+    }
+    &-1-lg {
+      padding-left: $spacer-1;
+      padding-right: $spacer-1;
+    }
+    &-2-lg {
+      padding-left: $spacer-2;
+      padding-right: $spacer-2;
+    }
+    &-3-lg {
+      padding-left: $spacer-3;
+      padding-right: $spacer-3;
+    }
+    &-4-lg {
+      padding-left: $spacer-4;
+      padding-right: $spacer-4;
+    }
+    &-5-lg {
+      padding-left: $spacer-5;
+      padding-right: $spacer-5;
+    }
+    &-6-lg {
+      padding-left: $spacer-6;
+      padding-right: $spacer-6;
+    }
+    &-7-lg {
+      padding-left: $spacer-7;
+      padding-right: $spacer-7;
+    }
+  }
+
+  @include breakpoint(xl) {
+    &-0-xl {
+      padding-left: $spacer-0;
+      padding-right: $spacer-0;
+    }
+    &-1-xl {
+      padding-left: $spacer-1;
+      padding-right: $spacer-1;
+    }
+    &-2-xl {
+      padding-left: $spacer-2;
+      padding-right: $spacer-2;
+    }
+    &-3-xl {
+      padding-left: $spacer-3;
+      padding-right: $spacer-3;
+    }
+    &-4-xl {
+      padding-left: $spacer-4;
+      padding-right: $spacer-4;
+    }
+    &-5-xl {
+      padding-left: $spacer-5;
+      padding-right: $spacer-5;
+    }
+    &-6-xl {
+      padding-left: $spacer-6;
+      padding-right: $spacer-6;
+    }
+    &-7-xl {
+      padding-left: $spacer-7;
+      padding-right: $spacer-7;
+    }
+  }
+
+  @include breakpoint(xxl) {
+    &-0-xxl {
+      padding-left: $spacer-0;
+      padding-right: $spacer-0;
+    }
+    &-1-xxl {
+      padding-left: $spacer-1;
+      padding-right: $spacer-1;
+    }
+    &-2-xxl {
+      padding-left: $spacer-2;
+      padding-right: $spacer-2;
+    }
+    &-3-xxl {
+      padding-left: $spacer-3;
+      padding-right: $spacer-3;
+    }
+    &-4-xxl {
+      padding-left: $spacer-4;
+      padding-right: $spacer-4;
+    }
+    &-5-xxl {
+      padding-left: $spacer-5;
+      padding-right: $spacer-5;
+    }
+    &-6-xxl {
+      padding-left: $spacer-6;
+      padding-right: $spacer-6;
+    }
+    &-7-xxl {
+      padding-left: $spacer-7;
+      padding-right: $spacer-7;
+    }
+  }
+}
+
+.pt {
+  &-0 {
+    padding-top: $spacer-0;
+  }
+
+  &-1 {
+    padding-top: $spacer-1;
+  }
+
+  &-2 {
+    padding-top: $spacer-2;
+  }
+
+  &-3 {
+    padding-top: $spacer-3;
+  }
+
+  &-4 {
+    padding-top: $spacer-4;
+  }
+
+  &-5 {
+    padding-top: $spacer-5;
+  }
+
+  &-6 {
+    padding-top: $spacer-6;
+  }
+
+  &-7 {
+    padding-top: $spacer-7;
+  }
+
+  @include breakpoint(sm) {
+    &-0-sm {
+      padding-top: $spacer-0;
+    }
+    &-1-sm {
+      padding-top: $spacer-1;
+    }
+    &-2-sm {
+      padding-top: $spacer-2;
+    }
+    &-3-sm {
+      padding-top: $spacer-3;
+    }
+    &-4-sm {
+      padding-top: $spacer-4;
+    }
+    &-5-sm {
+      padding-top: $spacer-5;
+    }
+    &-6-sm {
+      padding-top: $spacer-6;
+    }
+    &-7-sm {
+      padding-top: $spacer-7;
+    }
+  }
+
+  @include breakpoint(md) {
+    &-0-md {
+      padding-top: $spacer-0;
+    }
+    &-1-md {
+      padding-top: $spacer-1;
+    }
+    &-2-md {
+      padding-top: $spacer-2;
+    }
+    &-3-md {
+      padding-top: $spacer-3;
+    }
+    &-4-md {
+      padding-top: $spacer-4;
+    }
+    &-5-md {
+      padding-top: $spacer-5;
+    }
+    &-6-md {
+      padding-top: $spacer-6;
+    }
+    &-7-md {
+      padding-top: $spacer-7;
+    }
+  }
+
+  @include breakpoint(lg) {
+    &-0-lg {
+      padding-top: $spacer-0;
+    }
+    &-1-lg {
+      padding-top: $spacer-1;
+    }
+    &-2-lg {
+      padding-top: $spacer-2;
+    }
+    &-3-lg {
+      padding-top: $spacer-3;
+    }
+    &-4-lg {
+      padding-top: $spacer-4;
+    }
+    &-5-lg {
+      padding-top: $spacer-5;
+    }
+    &-6-lg {
+      padding-top: $spacer-6;
+    }
+    &-7-lg {
+      padding-top: $spacer-7;
+    }
+  }
+
+  @include breakpoint(xl) {
+    &-0-xl {
+      padding-top: $spacer-0;
+    }
+    &-1-xl {
+      padding-top: $spacer-1;
+    }
+    &-2-xl {
+      padding-top: $spacer-2;
+    }
+    &-3-xl {
+      padding-top: $spacer-3;
+    }
+    &-4-xl {
+      padding-top: $spacer-4;
+    }
+    &-5-xl {
+      padding-top: $spacer-5;
+    }
+    &-6-xl {
+      padding-top: $spacer-6;
+    }
+    &-7-xl {
+      padding-top: $spacer-7;
+    }
+  }
+
+  @include breakpoint(xxl) {
+    &-0-xxl {
+      padding-top: $spacer-0;
+    }
+    &-1-xxl {
+      padding-top: $spacer-1;
+    }
+    &-2-xxl {
+      padding-top: $spacer-2;
+    }
+    &-3-xxl {
+      padding-top: $spacer-3;
+    }
+    &-4-xxl {
+      padding-top: $spacer-4;
+    }
+    &-5-xxl {
+      padding-top: $spacer-5;
+    }
+    &-6-xxl {
+      padding-top: $spacer-6;
+    }
+    &-7-xxl {
+      padding-top: $spacer-7;
+    }
+  }
+}
+
+.pb {
+  &-0 {
+    padding-bottom: $spacer-0;
+  }
+
+  &-1 {
+    padding-bottom: $spacer-1;
+  }
+
+  &-2 {
+    padding-bottom: $spacer-2;
+  }
+
+  &-3 {
+    padding-bottom: $spacer-3;
+  }
+
+  &-4 {
+    padding-bottom: $spacer-4;
+  }
+
+  &-5 {
+    padding-bottom: $spacer-5;
+  }
+
+  &-6 {
+    padding-bottom: $spacer-6;
+  }
+
+  &-7 {
+    padding-bottom: $spacer-7;
+  }
+
+  @include breakpoint(sm) {
+    &-0-sm {
+      padding-bottom: $spacer-0;
+    }
+    &-1-sm {
+      padding-bottom: $spacer-1;
+    }
+    &-2-sm {
+      padding-bottom: $spacer-2;
+    }
+    &-3-sm {
+      padding-bottom: $spacer-3;
+    }
+    &-4-sm {
+      padding-bottom: $spacer-4;
+    }
+    &-5-sm {
+      padding-bottom: $spacer-5;
+    }
+    &-6-sm {
+      padding-bottom: $spacer-6;
+    }
+    &-7-sm {
+      padding-bottom: $spacer-7;
+    }
+  }
+
+  @include breakpoint(md) {
+    &-0-md {
+      padding-bottom: $spacer-0;
+    }
+    &-1-md {
+      padding-bottom: $spacer-1;
+    }
+    &-2-md {
+      padding-bottom: $spacer-2;
+    }
+    &-3-md {
+      padding-bottom: $spacer-3;
+    }
+    &-4-md {
+      padding-bottom: $spacer-4;
+    }
+    &-5-md {
+      padding-bottom: $spacer-5;
+    }
+    &-6-md {
+      padding-bottom: $spacer-6;
+    }
+    &-7-md {
+      padding-bottom: $spacer-7;
+    }
+  }
+
+  @include breakpoint(lg) {
+    &-0-lg {
+      padding-bottom: $spacer-0;
+    }
+    &-1-lg {
+      padding-bottom: $spacer-1;
+    }
+    &-2-lg {
+      padding-bottom: $spacer-2;
+    }
+    &-3-lg {
+      padding-bottom: $spacer-3;
+    }
+    &-4-lg {
+      padding-bottom: $spacer-4;
+    }
+    &-5-lg {
+      padding-bottom: $spacer-5;
+    }
+    &-6-lg {
+      padding-bottom: $spacer-6;
+    }
+    &-7-lg {
+      padding-bottom: $spacer-7;
+    }
+  }
+
+  @include breakpoint(xl) {
+    &-0-xl {
+      padding-bottom: $spacer-0;
+    }
+    &-1-xl {
+      padding-bottom: $spacer-1;
+    }
+    &-2-xl {
+      padding-bottom: $spacer-2;
+    }
+    &-3-xl {
+      padding-bottom: $spacer-3;
+    }
+    &-4-xl {
+      padding-bottom: $spacer-4;
+    }
+    &-5-xl {
+      padding-bottom: $spacer-5;
+    }
+    &-6-xl {
+      padding-bottom: $spacer-6;
+    }
+    &-7-xl {
+      padding-bottom: $spacer-7;
+    }
+  }
+
+  @include breakpoint(xxl) {
+    &-0-xxl {
+      padding-bottom: $spacer-0;
+    }
+    &-1-xxl {
+      padding-bottom: $spacer-1;
+    }
+    &-2-xxl {
+      padding-bottom: $spacer-2;
+    }
+    &-3-xxl {
+      padding-bottom: $spacer-3;
+    }
+    &-4-xxl {
+      padding-bottom: $spacer-4;
+    }
+    &-5-xxl {
+      padding-bottom: $spacer-5;
+    }
+    &-6-xxl {
+      padding-bottom: $spacer-6;
+    }
+    &-7-xxl {
+      padding-bottom: $spacer-7;
+    }
+  }
+}
+
+.pl {
+  &-0 {
+    padding-left: $spacer-0;
+  }
+
+  &-1 {
+    padding-left: $spacer-1;
+  }
+
+  &-2 {
+    padding-left: $spacer-2;
+  }
+
+  &-3 {
+    padding-left: $spacer-3;
+  }
+
+  &-4 {
+    padding-left: $spacer-4;
+  }
+
+  &-5 {
+    padding-left: $spacer-5;
+  }
+
+  &-6 {
+    padding-left: $spacer-6;
+  }
+
+  &-7 {
+    padding-left: $spacer-7;
+  }
+
+  @include breakpoint(sm) {
+    &-0-sm {
+      padding-left: $spacer-0;
+    }
+    &-1-sm {
+      padding-left: $spacer-1;
+    }
+    &-2-sm {
+      padding-left: $spacer-2;
+    }
+    &-3-sm {
+      padding-left: $spacer-3;
+    }
+    &-4-sm {
+      padding-left: $spacer-4;
+    }
+    &-5-sm {
+      padding-left: $spacer-5;
+    }
+    &-6-sm {
+      padding-left: $spacer-6;
+    }
+    &-7-sm {
+      padding-left: $spacer-7;
+    }
+  }
+
+  @include breakpoint(md) {
+    &-0-md {
+      padding-left: $spacer-0;
+    }
+    &-1-md {
+      padding-left: $spacer-1;
+    }
+    &-2-md {
+      padding-left: $spacer-2;
+    }
+    &-3-md {
+      padding-left: $spacer-3;
+    }
+    &-4-md {
+      padding-left: $spacer-4;
+    }
+    &-5-md {
+      padding-left: $spacer-5;
+    }
+    &-6-md {
+      padding-left: $spacer-6;
+    }
+    &-7-md {
+      padding-left: $spacer-7;
+    }
+  }
+
+  @include breakpoint(lg) {
+    &-0-lg {
+      padding-left: $spacer-0;
+    }
+    &-1-lg {
+      padding-left: $spacer-1;
+    }
+    &-2-lg {
+      padding-left: $spacer-2;
+    }
+    &-3-lg {
+      padding-left: $spacer-3;
+    }
+    &-4-lg {
+      padding-left: $spacer-4;
+    }
+    &-5-lg {
+      padding-left: $spacer-5;
+    }
+    &-6-lg {
+      padding-left: $spacer-6;
+    }
+    &-7-lg {
+      padding-left: $spacer-7;
+    }
+  }
+
+  @include breakpoint(xl) {
+    &-0-xl {
+      padding-left: $spacer-0;
+    }
+    &-1-xl {
+      padding-left: $spacer-1;
+    }
+    &-2-xl {
+      padding-left: $spacer-2;
+    }
+    &-3-xl {
+      padding-left: $spacer-3;
+    }
+    &-4-xl {
+      padding-left: $spacer-4;
+    }
+    &-5-xl {
+      padding-left: $spacer-5;
+    }
+    &-6-xl {
+      padding-left: $spacer-6;
+    }
+    &-7-xl {
+      padding-left: $spacer-7;
+    }
+  }
+
+  @include breakpoint(xxl) {
+    &-0-xxl {
+      padding-left: $spacer-0;
+    }
+    &-1-xxl {
+      padding-left: $spacer-1;
+    }
+    &-2-xxl {
+      padding-left: $spacer-2;
+    }
+    &-3-xxl {
+      padding-left: $spacer-3;
+    }
+    &-4-xxl {
+      padding-left: $spacer-4;
+    }
+    &-5-xxl {
+      padding-left: $spacer-5;
+    }
+    &-6-xxl {
+      padding-left: $spacer-6;
+    }
+    &-7-xxl {
+      padding-left: $spacer-7;
+    }
+  }
+}
+
+.pr {
+  &-0 {
+    padding-right: $spacer-0;
+  }
+
+  &-1 {
+    padding-right: $spacer-1;
+  }
+
+  &-2 {
+    padding-right: $spacer-2;
+  }
+
+  &-3 {
+    padding-right: $spacer-3;
+  }
+
+  &-4 {
+    padding-right: $spacer-4;
+  }
+
+  &-5 {
+    padding-right: $spacer-5;
+  }
+
+  &-6 {
+    padding-right: $spacer-6;
+  }
+
+  &-7 {
+    padding-right: $spacer-7;
+  }
+
+  @include breakpoint(sm) {
+    &-0-sm {
+      padding-right: $spacer-0;
+    }
+    &-1-sm {
+      padding-right: $spacer-1;
+    }
+    &-2-sm {
+      padding-right: $spacer-2;
+    }
+    &-3-sm {
+      padding-right: $spacer-3;
+    }
+    &-4-sm {
+      padding-right: $spacer-4;
+    }
+    &-5-sm {
+      padding-right: $spacer-5;
+    }
+    &-6-sm {
+      padding-right: $spacer-6;
+    }
+    &-7-sm {
+      padding-right: $spacer-7;
+    }
+  }
+
+  @include breakpoint(md) {
+    &-0-md {
+      padding-right: $spacer-0;
+    }
+    &-1-md {
+      padding-right: $spacer-1;
+    }
+    &-2-md {
+      padding-right: $spacer-2;
+    }
+    &-3-md {
+      padding-right: $spacer-3;
+    }
+    &-4-md {
+      padding-right: $spacer-4;
+    }
+    &-5-md {
+      padding-right: $spacer-5;
+    }
+    &-6-md {
+      padding-right: $spacer-6;
+    }
+    &-7-md {
+      padding-right: $spacer-7;
+    }
+  }
+
+  @include breakpoint(lg) {
+    &-0-lg {
+      padding-right: $spacer-0;
+    }
+    &-1-lg {
+      padding-right: $spacer-1;
+    }
+    &-2-lg {
+      padding-right: $spacer-2;
+    }
+    &-3-lg {
+      padding-right: $spacer-3;
+    }
+    &-4-lg {
+      padding-right: $spacer-4;
+    }
+    &-5-lg {
+      padding-right: $spacer-5;
+    }
+    &-6-lg {
+      padding-right: $spacer-6;
+    }
+    &-7-lg {
+      padding-right: $spacer-7;
+    }
+  }
+
+  @include breakpoint(xl) {
+    &-0-xl {
+      padding-right: $spacer-0;
+    }
+    &-1-xl {
+      padding-right: $spacer-1;
+    }
+    &-2-xl {
+      padding-right: $spacer-2;
+    }
+    &-3-xl {
+      padding-right: $spacer-3;
+    }
+    &-4-xl {
+      padding-right: $spacer-4;
+    }
+    &-5-xl {
+      padding-right: $spacer-5;
+    }
+    &-6-xl {
+      padding-right: $spacer-6;
+    }
+    &-7-xl {
+      padding-right: $spacer-7;
+    }
+  }
+
+  @include breakpoint(xxl) {
+    &-0-xxl {
+      padding-right: $spacer-0;
+    }
+    &-1-xxl {
+      padding-right: $spacer-1;
+    }
+    &-2-xxl {
+      padding-right: $spacer-2;
+    }
+    &-3-xxl {
+      padding-right: $spacer-3;
+    }
+    &-4-xxl {
+      padding-right: $spacer-4;
+    }
+    &-5-xxl {
+      padding-right: $spacer-5;
+    }
+    &-6-xxl {
+      padding-right: $spacer-6;
+    }
+    &-7-xxl {
+      padding-right: $spacer-7;
+    }
+  }
+}

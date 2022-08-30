@@ -1,9 +1,19 @@
 $primary-color: #333;
 $text-color: #fff;
 
+//Spacing
+$spacer-0: 0 !default;
+$spacer-1: .25rem !default; //4px at 16px root font
+$spacer-2: .5rem !default; //8px at 16px root font
+$spacer-3: 1rem !default; //16px at 16px root font
+$spacer-4: 1.5rem !default; //24px at 16px root font
+$spacer-5: 2rem !default; //32px at 16px root font
+$spacer-6: 2.5rem !default; //40px at 16px root font
+$spacer-7: 3rem !default; //48px at 16px root font
+
 //Breakpoints
-$screen-s: 36em !default; //576px at 16px base font
-$screen-m: 48em !default; //768px at 16px base font
-$screen-l: 62em !default; //992px at 16px base font
+$screen-sm: 36em !default; //576px at 16px base font
+$screen-md: 48em !default; //768px at 16px base font
+$screen-lg: 62em !default; //992px at 16px base font
 $screen-xl: 75em !default; //1200px at 16px base font
 $screen-xxl: 87.5em !default; //1400px at 16px base font

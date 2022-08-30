@@ -1,2 +1,9 @@
+//Variables
 @forward "@/styles/variables";
-@forward "@/styles/breakpoint";
+
+//Mixins
+@forward "@/styles/mixins/breakpoint";
+
+//Utilities
+@forward "@/styles/utilities/margin";
+@forward "@/styles/utilities/padding";

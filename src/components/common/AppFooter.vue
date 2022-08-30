@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <h1>This is the footer component</h1>
+    <h1 class="mt-6-sm">This is the footer component</h1>
   </footer>
 </template>
 
@@ -8,7 +8,7 @@
 @use "@/styles/base" as *;
 
 footer {
-  @include breakpoint(XL) {
+  @include breakpoint(xl) {
     background-color: $primary-color;
     color: $text-color;
   }

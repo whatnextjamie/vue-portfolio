@@ -1,0 +1,17 @@
+@use "@/styles/variables" as *;
+
+$breakpoints: (
+  'sm': $screen-sm,
+  'md': $screen-md,
+  'lg': $screen-lg,
+  'xl': $screen-xl,
+  'xxl': $screen-xxl
+) !default;
+
+@mixin breakpoint($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: map-get($breakpoints, #{$breakpoint})) {
+      @content;
+    }
+  }
+}
