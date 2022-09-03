@@ -6,19 +6,44 @@ $color-secondary: #00BCD4 !default;
 $color-tertiary: #3498DB !default;
 $color-border: #DDD !default;
 
-//Spacing
-$spacer-0: 0 !default;
-$spacer-1: .25rem !default; //4px at 16px root font
-$spacer-2: .5rem !default; //8px at 16px root font
-$spacer-3: 1rem !default; //16px at 16px root font
-$spacer-4: 1.5rem !default; //24px at 16px root font
-$spacer-5: 2rem !default; //32px at 16px root font
-$spacer-6: 2.5rem !default; //40px at 16px root font
-$spacer-7: 3rem !default; //48px at 16px root font
+//Typography
+$base-font-size: 1rem !default; // Assumes the browser default, typically `16px`
 
-//Breakpoints
-$screen-sm: 36em !default; //576px at 16px base font
-$screen-md: 48em !default; //768px at 16px base font
-$screen-lg: 62em !default; //992px at 16px base font
-$screen-xl: 75em !default; //1200px at 16px base font
-$screen-xxl: 87.5em !default; //1400px at 16px base font
+$title-font-size: $base-font-size * 4 !default; //64px at 16px root font size
+
+$h1-font-size: $base-font-size * 3 !default; //48px at 16px root font size
+$h1-font-size-md: $base-font-size * 3.125 !default; //50px at 16px root font size
+$h1-font-size-sm: $base-font-size * 2.875 !default; //46px at 16px root font size
+
+$h2-font-size: $base-font-size * 2.5 !default; //40px at 16px root font size
+$h2-font-size-sm: $base-font-size * 1.875 !default; //30px at 16px root font size
+
+$h3-font-size: $base-font-size * 2 !default; //32px at 16px root font size
+$h3-font-size-sm: $base-font-size * 1.75 !default; //28px at 16px root font size
+
+$h4-font-size: $base-font-size * 1.5 !default; //24px at 16px root font size
+$h5-font-size: $base-font-size * 1.25 !default; //20px at 16px root font size
+$h6-font-size: $base-font-size * .875 !default; //14px at 16px root font size
+
+//Spacing
+$spacer: 1rem !default; //16px at 16px root font size
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+  6: $spacer * 2.5,
+  7: $spacer * 3,
+  auto: auto
+) !default;
+
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+) !default;

@@ -3,8 +3,4 @@
 
 //Mixins
 @forward "@/styles/mixins/breakpoint";
-
-//Utilities
-@forward "@/styles/utilities/margin";
-@forward "@/styles/utilities/padding";
-@forward "@/styles/utilities/color";
+@forward "@/styles/mixins/spacing";

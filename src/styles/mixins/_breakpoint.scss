@@ -1,17 +1,24 @@
 @use "@/styles/variables" as *;
 
-$breakpoints: (
-  'sm': $screen-sm,
-  'md': $screen-md,
-  'lg': $screen-lg,
-  'xl': $screen-xl,
-  'xxl': $screen-xxl
-) !default;
-
-@mixin breakpoint($breakpoint) {
-  @if map-has-key($breakpoints, $breakpoint) {
-    @media (min-width: map-get($breakpoints, #{$breakpoint})) {
+// Makes the @content apply to the given breakpoint and wider
+@mixin breakpoint($breakpoint, $breakpoints: $breakpoints) {
+  $min: breakpoint-min($breakpoint, $breakpoints);
+  @if $min {
+    @media (min-width: $min) {
       @content;
     }
+  } @else {
+    @content;
   }
+}
+
+// Minimum breakpoint width - null for the first breakpoint
+@function breakpoint-min($breakpoint, $breakpoints: $breakpoints) {
+  $min: map-get($breakpoints, $breakpoint);
+  @return if($min != 0, $min, null);
+}
+
+// Returns an empty string if first breakpoint, otherwise returns a dash with the breakpoint name
+@function breakpoint-infix($breakpoint, $breakpoints: $breakpoints) {
+  @return if(breakpoint-min($breakpoint, $breakpoints) == null, "", "-#{$breakpoint}");
 }

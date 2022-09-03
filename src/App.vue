@@ -17,5 +17,5 @@ export default {
 </template>
 
 <style lang="scss">
-@use "@/styles/base";
+@use "@/styles/style";
 </style>

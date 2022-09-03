@@ -1,0 +1,17 @@
+@use "@/styles/mixins/spacing" as *;
+
+@include spacing($prefix: m, $properties: margin);
+@include spacing($prefix: my, $properties: margin-top margin-bottom);
+@include spacing($prefix: mx, $properties: margin-left margin-right);
+@include spacing($prefix: mt, $properties: margin-top);
+@include spacing($prefix: mb, $properties: margin-bottom);
+@include spacing($prefix: ml, $properties: margin-left);
+@include spacing($prefix: mr, $properties: margin-right);
+
+@include spacing($prefix: p, $properties: padding);
+@include spacing($prefix: py, $properties: padding-top padding-bottom);
+@include spacing($prefix: px, $properties: padding-left padding-right);
+@include spacing($prefix: pt, $properties: padding-top);
+@include spacing($prefix: pb, $properties: padding-bottom);
+@include spacing($prefix: pl, $properties: padding-left);
+@include spacing($prefix: pr, $properties: padding-right);
