@@ -1,12 +1,7 @@
 @use "@/styles/variables" as *;
+@use "@/styles/mixins/_font-size" as *;
 
-.title {
-
-}
-
-.long-title {
-
-}
+@include font-size;
 
 h1, .h1 {
   font-size: $h1-font-size;

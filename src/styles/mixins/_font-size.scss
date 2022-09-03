@@ -1,0 +1,16 @@
+@use "@/styles/variables" as *;
+@use "@/styles/mixins/breakpoint" as *;
+
+//Generates font-size (.fs) utility classes
+@mixin font-size {
+  @each $breakpoint in map-keys($breakpoints) {
+    @include breakpoint($breakpoint) {
+      $infix: breakpoint-infix($breakpoint, $breakpoints);
+      @each $font-size in map-keys($font-sizes) {
+        .#{$font-size}#{$infix} {
+            font-size: map-get($font-sizes, $font-size);
+        }
+      }
+    }
+  }
+}
